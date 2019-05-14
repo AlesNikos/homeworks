@@ -1,0 +1,90 @@
+
+body {
+  width: 1170px;
+  background-color: #f8f8f0;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.note {
+  font-weight: bold;
+  color: #B22222;
+}
+
+#contents {
+  color: #9400D3;
+}
+
+.chapter-1 {
+  font-weight: bold;
+}
+
+.chapter-1 p {
+  color: #696969;
+}
+
+#chapter-1 {
+  color: #0000CD;
+}
+
+.chapter-2 {
+  font-style: italic;
+}
+
+.chapter-2 p {
+  color: #191970;
+}
+
+#chapter-2 {
+  color: #9932CC;
+}
+
+.chapter-3 {
+  background-color: #A9A9A9;
+}
+
+.chapter-3 p {
+  color: #ffffff;
+}
+
+#chapter-3 {
+  color: #FFDEAD;
+}
+
+.chapter-4 {
+  text-decoration: underline;;
+}
+
+.chapter-4 p {
+  color: #006400;
+}
+
+#chapter-4 {
+  color: #20B2AA;
+}
+
+.chapter-5 {
+  margin-bottom: 10px;
+  border: 2px solid #FF4500;
+}
+
+.chapter-5 p {
+  border: 1px solid #7CFC00;
+  color: #006400;
+}
+
+#chapter-5 {
+  color: #FF0000;
+}
