@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  color: #32325f;
+}
+
+.container {
+  max-width: 114rem;
+  width: 96%;
+  margin: 0 auto;
+}
+
+/* Оформление header */
+.hero {
+  padding: 7rem 0 19rem;
+  background-color: #f4f5f7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16rem;
+  &-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #95989a;
+    text-transform: uppercase;
+  }
+  &-social {
+    a {
+      margin-left: 2rem;
+      width: 27px;
+      height: 21px;
+      font-size: 2.4rem;
+      color: #95989a;
+    }
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  &-text {
+    width: 50%;
+  }
+  &-subtitle {
+    display: block;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  &-title {
+    display: block;
+    margin-bottom: 2.6rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+  }
+  &-description {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  &-price-tag {
+    display: block;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  &-price {
+    display: block;
+    margin-bottom: 7rem;
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #525f7f;
+  }
+  &-image {
+    margin-right: 4.5rem;
+  }
+}
+
+.btn {
+  padding: 2rem 3rem;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  &-success {
+    margin-right: 2.5rem;
+    background-color: #2dce89;
+  }
+  &-primary {
+    background-color: #5e72e4;
+  }
+}
+
+/* Оформление секции О чем книга */
+.section {
+  padding: 10rem 0 11rem;
+  &-subtitle {
+    display: block;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  &-title {
+    display: block;
+    font-size: 4.8rem;
+    font-weight: 700;
+  }
+}
+
+.about {
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+  }
+  &-block {
+    width: 23%;
+    margin-right: 2%;
+  }
+  &-text {
+    margin: 4rem 0;
+    color: #525f7f;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+}
+
+/* Оформление секции Люди заказали книгу */
+.people {
+  background-color: #f4f5f7;
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    min-height: 54.4rem;
+    margin-top: 6.5rem;
+  }
+  &-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36.2rem;
+    height: 25.4rem;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
+
+/* Оформление footer */
+.footer {
+  padding: 8rem 0 10rem;
+  color: #fff;
+  background-color: #32325f;
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-block {
+    width: 33%;
+    a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+    p {
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+  }
+  &-title {
+    margin-bottom: 3.5rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+}
