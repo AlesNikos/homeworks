@@ -95,7 +95,7 @@ body {
 }
 /* Оформление секции О чем книга */
 .section {
-  padding: 10rem 0 11rem;
+  padding: 10rem 0 10rem;
 }
 .section-subtitle {
   display: block;
@@ -134,7 +134,6 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: space-between;
-  min-height: 54.4rem;
   margin-top: 6.5rem;
 }
 .people-block {
@@ -143,6 +142,7 @@ body {
   align-items: center;
   width: 36.2rem;
   height: 25.4rem;
+  margin-bottom: 3.6rem;
 }
 .people-block img {
   max-width: 100%;
