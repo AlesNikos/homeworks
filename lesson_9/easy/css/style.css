@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+.features {
+  padding: 70px 0 100px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.section-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.features-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 126px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.features-block p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
