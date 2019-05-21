@@ -1,0 +1,144 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: sans-serif;
+  color: #32325f;
+  line-height: 1;
+}
+/* Оформление header */
+.hero {
+  padding: 7rem 0 19rem;
+  background-color: #f4f5f7;
+}
+.navbar {
+  padding: 0;
+  margin-bottom: 16rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #95989a;
+  text-transform: uppercase;
+}
+.navbar-social a {
+  margin-left: 2rem;
+  width: 27px;
+  height: 21px;
+  font-size: 2.4rem;
+  color: #95989a;
+}
+.main-subtitle {
+  display: block;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.main-title {
+  display: block;
+  margin-bottom: 2.6rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+.main-description {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.main-price-tag {
+  display: block;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.main-price {
+  display: block;
+  margin-bottom: 5rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #525f7f;
+}
+.main-image img {
+  max-width: 100%;
+}
+.btn {
+  display: inline-block;
+  padding: 2rem 3rem;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn-success {
+  margin-right: 2.5rem;
+  background-color: #2dce89;
+}
+.btn-primary {
+  background-color: #5e72e4;
+}
+/* Оформление секции О чем книга */
+.section {
+  padding: 10rem 0 10rem;
+}
+.section-subtitle {
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.section-title {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+.about-wrap {
+  margin-top: 10rem;
+}
+.about-text {
+  margin: 4rem 0;
+  color: #525f7f;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+/* Оформление секции Люди заказали книгу */
+.people {
+  background-color: #f4f5f7;
+}
+.people-wrap {
+  margin-top: 6.5rem;
+}
+.people-block {
+  max-width: 35rem;
+  margin-bottom: 3.6rem;
+}
+.people-block img {
+  width: 100%;
+}
+/* Оформление footer */
+.footer {
+  padding: 8rem 0 10rem;
+  color: #fff;
+  background-color: #32325f;
+}
+.footer-block a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.footer-block p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.footer-title {
+  margin-bottom: 3.5rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
