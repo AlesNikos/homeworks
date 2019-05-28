@@ -1,0 +1,116 @@
+* 
+  box-sizing: border-box
+
+body
+  margin: 0
+  font-family: sans-serif
+
+img
+  max-width: 100%
+
+.container
+  width: 1170px
+  margin: auto
+
+.button 
+  color: #ffffff
+  font-size: 18px
+  font-weight: 400
+  text-transform: uppercase
+  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04)
+  border-radius: 8px
+  border: 1px solid #ffba15
+  background-color: #ffb504
+  background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%)
+
+.price
+  padding: 120px 0
+  background-color: #006b00
+  &-text
+    margin-bottom: 90px
+    text-align: center
+    &__title
+      margin-top: 0
+      margin-bottom: 41px
+      color: #ffffff
+      font-size: 36px
+      font-weight: 700
+    &__subtitle
+      color: #ffffff
+      font-size: 18px
+      font-weight: 400
+  &-wrap
+    display: flex
+    justify-content: space-between
+  &-block
+    padding: 10px 20px 40px
+    min-height: 500px
+    background-color: #ffffff
+    box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17)
+    text-align: center
+    &__header
+      margin: 30px 0
+      font-size: 19px
+      font-weight: 700
+    &__image
+      max-width: 300px
+      width: 100%
+      display: inline-block
+      margin-bottom: 31px
+    &__tag
+      margin-top: 0
+      margin-bottom: 24px
+      font-size: 19px
+      font-weight: 700
+      span 
+        font-size: 30px
+    &__btn 
+      padding: 20px 60px
+      font-size: 16px
+  &-list
+    padding: 0
+    min-height: 150px
+    list-style: none
+    font-size: 16px
+    line-height: 1.9
+    &__item
+      &:before
+        content: ''
+        display: inline-block
+        margin-right: 10px
+        width: 11px
+        height: 11px
+        background: url(../img/prices/check.svg) no-repeat center
+        background-size: 100%
+        vertical-align: middle
+
+.upsell
+  margin-top: 50px
+  padding: 110px 0
+  background-color: #006b00
+  &-text
+    margin-bottom: 90px
+    text-align: center
+    &__title
+      margin-top: 0
+      margin-bottom: 50px
+      color: #ffffff
+      font-size: 30px
+      font-weight: 700
+    &__subtitle
+      color: #ffffff
+      font-size: 18px
+      font-weight: 400
+  &-wrap
+    display: flex
+    justify-content: space-between
+  &-block
+    text-align: center
+    min-height: 300px
+    &__image 
+      margin-bottom: 50px
+    &__btn 
+      padding: 15px 40px
+      font-size: 16px
+      
+
