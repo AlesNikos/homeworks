@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans/OpenSans-Regular.eot');
+	src: local('../fonts/OpenSans/Open Sans Regular'), local('OpenSans-Regular'),
+		url('../fonts/OpenSans/?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+		url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BadScript/BadScript-Regular.eot');
+	src: local('../fonts/BebasRegular/Bebas Neue Regular Regular'), local('BebasNeueRegular'),
+		url('../fonts/BebasRegular/?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasRegular/BebasNeueRegular.woff') format('woff'),
+		url('../fonts/BebasRegular/BebasNeueRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bad Script';
+	src: url('../fonts/BadScript/BadScript-Regular.eot');
+	src: local('../fonts/BadScript/Bad Script Regular'), local('BadScript-Regular'),
+		url('../fonts/BadScript/BadScript-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BadScript/BadScript-Regular.woff') format('woff'),
+		url('../fonts/BadScript/BadScript-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster/Lobster-Regular.eot');
+	src: local('../fonts/Lobster/Lobster Regular'),
+	local('Lobster-Regular'),
+		url('../fonts/Lobster/Lobster-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lobster/Lobster-Regular.woff') format('woff'),
+		url('../fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+
+.resault__open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.resault__bebas {
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+.resault__bad-script {
+	font-family: 'Bad Script', sans-serif;
+}
+
+.resault__lobster {
+	font-family: 'Lobster', sans-serif;
+}
